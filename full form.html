@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <!--Required meta tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device=width, initial-scale=1">
+    <title>Form</title>
+    </header>
+    <body>
+         <h1>
+            Form สมัครสมาชิก
+        </h1>
+        <br>
+        <br>
+        <from>
+            คำนำหน้าชื่อ : <input list = "title"><br>
+            <datalist id="title">
+                <option>นาย</option>
+                <option>นส.</option>
+                <option>นาง</option>
+            </datalist>
+            ชื่อ : <input type="text" value="xx"required/ autofocus><br>
+            <label for="male">ชาย</label>
+            <input type="radio" name="gender" value="ชาย">
+            <label for="male">หญิง</label>
+            <input type="radio" name="gender" value="หญิง"><br>
+            รหัสผ่าน : <input type="password" value="" required/ autofocus/>
+            <br>
+            เบอร์โทร : <input type="text" value="" placeholder="0xx-xxx-xxxx"/>
+            <br>
+            ค้นหา : <input type="search" value=""><br>
+            E-mail : <input type="email" value="" name="email"/><br>
+            วันเกิด : <input type="date" value=""/><br>
+            อายุ : <input type="number" value=""/><br>
+            <select name="education">
+                <option value="ปริญญาตรี">ปริญญาตรี</option>
+                <option value="ปริญญาตรี">ปริญญาตรี</option>
+            </select><br>
+            สีที่ชอบ : <input type="color" value="" /><br>
+            <progress value="" max=""></progress><br>
+            <textarea rows="4" cols="30" placeholder="แสดงความเห็น"></textarea><br>
+            <input type="checkbox" name="accept" value="yes">ยอบรับเงื่อนไข<br>
+            <input type="checkbox" name="subscribe" value="no">ติดตามข่าวสาร<br>
+            <input type="submit" value="สมัคร">ยอบรับเงื่อนไข
+            <input type="reset"  value="ยกเลิก">ยอบรับเงื่อนไข
+
+        </from>
+
+    </body>
+</html>
